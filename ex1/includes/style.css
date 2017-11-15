@@ -1,0 +1,168 @@
+*{margin:0px;
+  padding:0px;
+ }
+a
+{
+ 	text-decoration: none;
+}
+header,main,section,footer,article,aside,nav
+{
+	display: block
+}
+
+header
+{
+width:100%;
+height:64px;
+background:#1b1e26;
+}
+
+footer
+{
+  height:92px;
+  padding-top:23px;
+  padding-left:73px;
+}
+
+nav a
+{
+  color:#8e959c;
+  font-size:170%;
+  font-family:arial;
+  margin-left:64px;
+}
+footer a
+{
+  margin-right:70px;
+  font-family:arial;
+  font-size:130%;
+  color:#333333;
+}
+footer a:hover{
+    color:#111111;
+}
+nav
+{
+  height:38px;
+}
+
+#navid a:hover{color:#57585a}
+
+#fixheader
+{
+  padding-left:100px;
+  padding-top:15px;
+  background:url(../images/logo1.png) no-repeat;
+  background-position: 64px 12px;
+}
+#clickable
+{
+  width:295px;
+  height: 62px;
+  display:block;
+}
+#hederspan1
+{
+  font-family:"arial";
+  color:#ffffff;
+  display: inline
+}
+#hederspan2
+{
+  font-family:"courier";
+  color:#ffffff;
+  display: inline
+}
+
+#fixsection2
+{
+  padding-left:70px;
+  padding-top:27px
+}
+#nameposition
+{
+  font-family:monospace
+}
+#profilesection
+{
+  width:350px;
+  height:275px;
+  border:solid #d9dbdf;
+  border-radius:4px;
+  margin-top:27px;
+  padding:15px 15px 15px 15px
+}
+#picposition
+{
+  width:320px;
+  height:180px;
+}
+#mypicture
+{
+  margin-top:15px;
+  display:inline-block;
+}
+#aboutmepos
+{
+  display:inline-block;
+  width:200px;
+  height:50px;
+  margin-left:13px;
+  vertical-align:top
+}
+.firstsent
+{
+  margin-top:12px;
+}
+#secondsent
+{
+  color:#b0b5ba
+}
+#myline
+{
+  width:1140px;
+  height:152px;
+  border-top:solid 1px #e7e7e7;
+  margin-top:93px;
+}
+#mypic1
+{
+  margin-top:42px;
+  margin-left:42px;
+  border-radius:40px;
+  display:inline-block;
+}
+#mythink
+{
+  width:300px;
+  height:200px;
+  display:inline-block;
+  margin-left: 30px;
+  vertical-align:top;
+}
+.myfont
+{
+  font-family:arial
+}
+#date
+{
+  margin-top:40px;
+  color:#b0b5ba;
+}
+#blacksection
+{
+  width:1280px;
+  height:250px;
+  background:#24272e;
+  padding-top:35px;
+  padding-left:70px
+}
+#myskills
+{
+  color:#ffffff;
+  margin-bottom:5px;
+}
+#myskills1
+{
+  color:#8e959c;
+}
