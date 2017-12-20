@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="includes/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <h2>Alon Golan</h2>
+  </nav>
+  <div id="wrapper">
+    <h1>My first form</h1>
+    <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="GET" autocomplete="on">
+      <label>FullName:</label>
+      <input class="form-control" type="text" name="fullName" value="" required>
+      <label>Password:</label>
+      <input class="form-control" type="password" name="pass" value="" required>
+      <label>Email:</label>
+      <input class="form-control" type="email" name="mail" value="">
+      <label>WebSite:</label>
+      <input class="form-control" type="url" name="website" value="">
+      <label>Phone:</label>
+      <input  class="form-control" type="tel" title="phone number must be 10 digits" name="phone" value="" pattern="[0-9]{10}">
+      <label>Number of coffee:</label>
+      <input class="form-control" type="number" name="coffee" value="">
+      <label>Range: 50 To 100</label>
+      <input type="range" min="50" max="100" name="temper"  value="">
+      <label>Address:</label>
+      <textarea class="form-control" name="address" rows="2" cols="46"></textarea>
+      <label>hobbis:</label>
+      <br>
+      <label>GYM: <input  type="checkbox" name="interests[]" value="GYM"></label>
+      <label class="position-fix">play: <input type="checkbox" name="interests[]" value="play"></label>
+      <label class="position-fix">Music: <input type="checkbox" name="interests[]" value="Music"></label>
+      <br>
+      <label>gender:</label>
+      <br>
+      <label>Male: <input type="radio" name="gender" value="male"></label>
+      <label class="position-fix">Female: <input type="radio" name="gender" value="female"></label>
+      <label class="position-fix">other: <input type="radio" name="gender" value="othar"></label>
+      <br>
+      <label>age:</label>
+      <select name="age">
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26" selected>26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+      </select>
+      <br>
+      <input class="btn btn-primary " type="submit" value="submit">
+    </form>
+  </div>
+  <footer class="blockquote-footer"></footer>
+</body>
+</html>
