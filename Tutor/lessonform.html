@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="includes/style.css">
+</head>
+<body id="layout5">
+  <div class="wrapper">
+    <header>
+      <a href="#"><img class="smallLogo" src="images/tutorLogo.png"><span class="textLogo">Tutor</span></a>
+      <p class="helloTeacher">שלום חן</p>
+      <img src="images/bell.png" id="bellIcon" alt="">
+    </header>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="calendarIcon" src="images/calendar.png" alt=""><span class="fixLetter">הפגישות שלי</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="studentsIcon" src="images/students.png" alt=""><span class="fixLetter">התלמידים שלי</span><section class="selected"></section></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="teacherIcon" src="images/teachprofile.png" alt=""><span class="fixLetter">פרופיל מורה</span></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <article style="text-align:center;">
+        <h5>עריכת פרטים</h5>
+      </article>
+      <section id="lesForm">
+        <form id="formAttr" action="progress1.html" method="post">
+          <label class="formControl">
+            <input id="dateinput" class="textinput" type="date" name="" value="">
+            <span class="formControlText">:תאריך</span>
+          </label>
+          <label class="formControl">
+            <input class="textinput" type="text" name="learnMaterial" value="">
+            <span class="formControlText">:חומר נלמד</span>
+          </label>
+          <label class="formControl">
+            <input class="textinput" type="text" name="dificultese" value="">
+            <span class="formControlText">:קשיי לימוד</span>
+          </label>
+          <label class="formControl">
+            <input class="textinput" type="text" name="homework" value="">
+            <span class="formControlText">:שיעורי בית</span>
+          </label>
+          <label class="formControl">
+            <input class="textinput" type="text" name="grade" value="">
+            <span class="formControlText">:שיעור מספר</span>
+          </label>
+          <section class="formActions">
+            <input  type="submit" name="submit" id="submitBtn1" value="שמור">
+            <button id="cancelBtn" type="button" name="button">ביטול</button>
+          </section>
+        </form>
+      </section>
+      <section id="bottomLine">
+        <button class="bottomBtn btnSelected" type="button" name="button">קצב התקדמות</button>
+        <button class="bottomBtn" type="button" name="button">שיתוף קבצים</button>
+        <button class="bottomBtn" type="button" name="button">צ'אט</button>
+      </section>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="includes/main.js"></script>
+</body>
+</html>
