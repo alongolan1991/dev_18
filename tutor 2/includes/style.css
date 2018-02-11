@@ -1,0 +1,571 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Bellefair-Regular.ttf);
+}
+
+@media only screen and (min-width:768px){
+.studBox{
+  width: 260px !important;
+  height:220px !important;
+
+}
+.head6{
+  margin-bottom: 10px !important;
+  font-size: 140% !important;
+}
+
+}
+
+
+main,article,section,aside,nav,footer,header{
+  display: block;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+
+.calendarIcon
+{
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 0px auto;
+}
+
+.appointments{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.studentsIcon{
+  display: block;
+  width: 60px;
+  height: 42px;
+  margin: 0px auto;
+}
+
+.fixArrow{
+  width: 50px;
+  cursor: pointer;
+}
+
+.deleteAppointment{
+  color: red;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-decoration: underline;
+}
+.deleteAppointment:hover{
+  color: #565656;
+}
+
+.fixInfo{
+  width: 28px;
+}
+
+.fixLesson{
+  float: right;
+  margin-top:14px;
+  margin-right: 6px;
+}
+
+.teacherIcon{
+  display: block;
+  width: 49px;
+  height: 42px;
+  margin: 0px auto;
+
+}
+
+.fixLetter{
+  letter-spacing: -1px;
+  font-family: myFont;
+}
+
+#wrapper{
+  margin: 0px auto;
+  width: 100%;
+}
+body{
+  background: #eeeeee;
+}
+main{
+  width: 90%;
+  margin: 0px auto;
+
+}
+
+#textarea1{
+  height: 75px;
+}
+
+#layout1 h3{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#layout8 main section{
+  margin-top:20px;
+
+}
+
+#logo{
+  margin: 100px auto;
+  display: block;
+  width: 140px;
+  height: 160px;
+}
+#loginBtns{
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+
+}
+#teacherBtn{
+  width: 130px;
+  height: 45px;
+  border-radius: 5px;
+
+}
+#studentBtn{
+  width: 130px;
+  height: 45px;
+  border-radius: 5px;
+  margin-right: 30px;
+
+}
+button{
+  cursor: pointer;
+}
+
+header{
+  width: 100%;
+  background: #eeeeee;
+  padding: 10px;
+  position: relative;
+}
+
+header>a{
+  width: 100px;
+  background: url(../images/tutorSmallLogo.png) no-repeat;
+  height:38px;
+  display: inline-block;
+}
+
+header a b{
+  display:inline-block;
+  margin-left:37px;
+  font-size:150%;
+}
+
+header section{
+  display:inline-block;
+  position:absolute;
+  right:2%;
+  top:23%
+}
+
+header section p{
+  display:inline-block;
+  margin-bottom:0px;
+  font-size:115%;
+}
+
+header section a{
+  width: 30px;
+  height: 30px;
+  background: url("../images/bell.png") no-repeat ;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+  font-size: 70%;
+  text-align: center;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.nav{
+  background: #f7f6f6;
+}
+
+.fixpos{
+  display: inline-block;
+}
+
+.nav-item{
+  width:33.3333%;
+}
+
+.nav-link{
+  text-align: center;
+}
+
+
+
+#nikba{
+  width: 100%;
+}
+#loNikba
+{
+  width: 100%;
+}
+
+#toolBar{
+  margin-top: 20px;
+}
+
+#glass{
+  width: 50px;
+  height: 50px;
+
+}
+
+#addUser{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.studBox{
+  background: #f5f5f5;
+  width: 130px;
+  height: 110px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 4%;
+  text-align: center;
+}
+
+.studProfileBox{
+  width: 135px;
+  height: 120px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 30px;
+}
+
+.head6{
+  margin-bottom: 0px;
+  font-size: 100%;
+}
+
+#lessonDate{
+  font-size:60%;
+  margin-top: 1.5px;
+  direction: ltr;
+}
+
+.studProfileBox img{
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+
+#studentName{
+  position: absolute;
+  right: 0px;
+  top:-50px;
+}
+
+#studentName1{
+  position: absolute;
+  right: 0px;
+  top:15px;
+}
+
+#pluspic{
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+
+#textArea{
+  border-radius: 3px;
+  width: 100%;
+  border: none;
+  background: url(../images/notebook.png) no-repeat top left;
+  background-size: cover;
+  resize: none;
+  padding: 13px;
+}
+
+#profileSection{
+  margin-top: 55px;
+  text-align: right;
+}
+
+#submitBtn{
+  width: 80px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+#noteForm{
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+}
+
+#studentDetails{
+  font-size: 85%;
+}
+
+#bottomLine{
+  width: 100%;
+  border-top: 2.5px solid #d1d1d1;
+  margin-top: 70px;
+  text-align: center;
+}
+
+#layout3 main{
+  position: relative;
+}
+
+
+
+#plusSection{
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.bottomBtn{
+  width: 25%;
+  margin: 10px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 80%;
+  letter-spacing: -0.5px;
+}
+
+.lessonbox{
+  margin: 0px auto;
+  height: 50px;
+  background: #ffffff;
+  border-top: 2px solid gray;
+}
+
+.fadesection{
+  height: 140px;
+  display: none;
+  background: #d6d6d6;
+  margin: 0px auto;
+  position: relative;
+}
+
+.MaterialStudied{
+  position: absolute;
+  top:5px;
+  right:10px;
+}
+
+.dificultese{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.homework{
+  position: absolute;
+  top:75px;
+  right:10px;
+}
+
+.grade{
+  position: absolute;
+  top: 110px;
+  right:10px;
+}
+
+#lesForm{
+  width: 100%;
+  height:300px;
+  background:#d6d6d6;
+  margin-top: 10px;
+  margin: 0px auto;
+  text-align:right;
+  padding-top: 6px;
+}
+
+#layout5 main{
+  padding-top: 10px;
+}
+
+
+.calendarBox{
+  height: 50px;
+  background: #75a9f9;
+  margin-top: 6px;
+
+}
+
+.calendarTime{
+  display:inline-block;
+  color: #ffffff;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.calendarDate{
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.calendarName{
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 13px;
+  margin-right: 15px;
+  float: right;
+
+}
+
+#formLabel1{
+  margin-bottom: 5px;
+}
+
+#err{
+  text-align: center;
+  color: red;
+}
+
+.formAppointment{
+  text-align: center;
+}
+
+.calendarComment{
+position: absolute;
+top:5px;
+right:10px;
+text-align:right;
+}
+
+#addMeet{
+  width:35px;
+  height:35px;
+  float:left;
+
+}
+
+
+#submitBtn1{
+  width: 70px;
+  background: #aedd94;
+  border-radius: 7px;
+}
+
+#cancelBtn{
+  width: 70px;
+  border-radius: 7px;
+}
+
+.saveBox{
+  width: 30px;
+  height: 20px;
+  background: green;
+  margin-left: 300px;
+  display: none;
+}
+
+#formLabel{
+  display: block;
+  background: #929292;
+  text-align: center;
+  margin-bottom:0px;
+  height: 30px;
+  line-height: 30px;
+
+}
+
+.addMeetBtn{
+  width: 100px;
+  border-radius: 2px;
+}
+
+#saveBtn{
+  margin-right: 40px;
+}
+.myIcon{
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+}
+
+.formControl{
+  display: block;
+  font-size: 0;
+}
+
+#formAttr{
+  width: 50%;
+  margin: 0 auto;
+  min-width: 300px;
+  padding-top: 20px;
+}
+
+.formActions{
+  text-align: left;
+}
+
+.formControlText{
+  width: 35%;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.textinput{
+  width: 60%;
+  height: 28px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 5%;
+}
+
+#layout6 #progress .bigSection:last-of-type .lessonbox{
+  animation: highlight 1.5s;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: none;
+  }
+}
+
+.selected{
+  display:block;
+  width:72px;
+  height:6px;
+  background:#000000;
+  margin:0 auto;
+}
+
+.btnSelected{
+  background: #555555;
+}
+
+.fixPhoto{
+  width: 80%;
+  height: 80%;
+}

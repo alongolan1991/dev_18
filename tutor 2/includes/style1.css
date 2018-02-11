@@ -1,0 +1,314 @@
+@media only screen and (max-width:992px){
+  .sideBar{
+    display: none;
+  }
+
+  .singleLine{
+    display: none;
+  }
+
+  .studentSec{
+    width: 100% !important;
+    min-height: 0px !important;
+  }
+
+  .card{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  footer{
+    display: none !important;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 0px;
+  }
+
+  .nav-item{
+    margin-left: 0px !important;
+    background: #dddddd;
+    width:150px;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .breadCrambs{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width:745px){
+
+  .iconBtn{
+    width: 95px !important;
+    height: 45px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 55px;
+    left:3% !important;
+    letter-spacing: -1px;
+  }
+
+
+
+}
+
+@media only screen and (max-width:404px){
+
+  #card3{
+    margin-left: 7% !important;
+  }
+}
+
+header{
+  width: 100%;
+  height: 78px;
+  position: relative;
+}
+
+header>a{
+  width: 100px;
+  background: url(../images/tutorLogoMed.png) no-repeat;
+  height:66px;
+  display: inline-block;
+}
+
+header a p{
+  display:inline-block;
+  margin-left:55px;
+  font-size:170%;
+
+}
+
+header section{
+  display:inline-block;
+  position:absolute;
+  right:2%;
+  top:29%
+}
+
+header section p{
+  display:inline-block;
+  margin-bottom:0px;
+  font-size:115%;
+}
+
+header section a{
+  width: 30px;
+  height: 30px;
+  background: url("../images/bell.png") no-repeat ;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+  font-size: 70%;
+  text-align: center;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+#wrapper{
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.nav-item{
+  margin-left: 75px;
+}
+
+#studentNav{
+  height: 90px;
+  background: #efefef !important;
+}
+
+
+#studentHeader{
+  background: #d6d6d6 !important;
+}
+.active a{
+  color: #000000 !important;
+}
+.studentSec{
+  width: 74.21875%;
+  min-height: 755px;
+  float: left;
+  background: #f7f6f6;
+  text-align: center;
+}
+.sideBar{
+  float: left;
+  width: 25.78125%;
+  height: 755px;
+  background: #ebebeb;
+}
+.card-img-top{
+  width: 95% !important;
+  height: 82% !important;
+  margin: 0px auto;
+
+}
+.card-text{
+  height: 15px;
+}
+.card{
+  width: 307px ;
+  height: 307px ;
+  padding: 6px !important;
+  margin-top: 35px;
+  margin-bottom: 30px !important;
+  float: left;
+  margin-left: 9%;
+  background: #eeeeee;
+}
+
+.card2{
+  float: none;
+  margin: 16% auto;
+}
+
+.studentIcons{
+  width:90%;
+  border-top:1px solid gray;
+  margin-top:70px;
+  display:inline-block;
+
+
+}
+
+.nextLesson{
+  height: 370px;
+  width: 100%;
+  border-top: 1px solid gray;
+  direction: rtl;
+  text-align: right;
+}
+
+.nextLesson h6{
+  margin-top: 44px;
+  margin-right: 22px;
+
+}
+.nextLesson ul li{
+  margin-bottom: 5px;
+}
+
+.nextSubmition{
+  height: 385px;
+  width: 100%;
+  border-top: 1px solid gray;
+  direction: rtl;
+  text-align: right;
+}
+
+.nextSubmition h6{
+  margin-top: 44px;
+  margin-right: 22px;
+
+}
+.nextSubmition ul li{
+  margin-bottom: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 72px;
+  display: inline-block;
+  background: #d6d6d6;
+  float: left;
+}
+
+body{
+  background: #f7f6f6;
+}
+
+a{
+  color: #222222;
+}
+.breadCrambs a:hover{
+  text-decoration: none;
+  color: #7e7e7e;
+}
+
+a:visited{
+  color: #222222;
+}
+
+.fixIcon{
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.iconBtn{
+  width: 120px;
+  height: 45px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 55px;
+  left:21%;
+}
+
+.iconBtn:hover{
+  background: #989898;
+}
+
+.breadCrambs{
+  font-size:130%;
+  float:left;
+  margin-left:10px;
+  margin-top:5px;
+}
+.addMeetBtn{
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.textinput{
+  width: 60%;
+  height: 28px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 5%;
+}
+
+.myIcon{
+  width: 27px;
+  height: 27px;
+  vertical-align: top;
+}
+.singleLine{
+  width: 88%;
+}
+
+.circle-check{
+  width: 25%;
+  display: inline-block;
+}
+
+
+.divBtn{
+  text-align: center;
+  margin-top: 5%;
+}
+.divBtn button{
+    width: 160px;
+    height: 45px;
+    border-radius: 2px;
+
+}
+
+button{
+  cursor: pointer;
+}
+
+#textarea1{
+  height: 75px;
+}
